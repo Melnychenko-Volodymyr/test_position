@@ -1,0 +1,52 @@
+@media screen and (min-width:1200px) {	
+	.container {
+		width: 100%;
+		height: 800px;
+		background: lightblue;
+		position: relative;
+	}
+	.section {
+		width: 200px;
+		height: 100px;
+		background: yellow;
+		border: 2px solid black;
+		box-sizing: border-box;
+		position: absolute;
+		bottom: 50px;
+		right: 50px;
+	}
+}	
+@media screen and (min-width:700px) and (max-width:1200px)  {	
+	.container {
+		width: 100%;
+		height: 800px;
+		background: lightblue;
+		position: relative;
+	}
+	.section {
+		width: 200px;
+		height: 800px;
+		background: yellow;
+		border: 2px solid black;
+		box-sizing: border-box;
+		position: absolute;
+		right: 0px;
+	}
+}	
+@media screen and (max-width:700px)  {	
+	.container {
+		width: 100%;
+		height: 800px;
+		background: lightblue;
+		position: relative;
+	}
+	.section {
+		width: 100%;
+		height: 200px;
+		background: yellow;
+		border: 2px solid black;
+		box-sizing: border-box;
+		position: absolute;
+		bottom: 0px;
+	}
+}	
